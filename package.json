@@ -1,12 +1,12 @@
 {
   "name": "crc32-base64",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "email": "pprisn@yandex.ru",
   "description": "расчет CRC-32(IEEE) для данных в base64",
   "main": "index.js",
   "scripts": {
     "configure": "node-gyp configure",
-    "install": "node-gyp configure&&node-gyp rebuild",
+    "install": "node-gyp rebuild",
     "start:test": "node index-test.js"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "license": "ISC",
   "gypfile": true,
   "dependencies": {
+    "bindings": "^1.5.0",
     "node-addon-api": "^4.2.0"
   },
   "repository": {
