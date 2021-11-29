@@ -1,4 +1,5 @@
-#include "../node_modules/node-addon-api/napi.h"
+// #include "../node_modules/node-addon-api/napi.h"
+#include <napi.h>
 #include <string>
 #include "crc32.h"
 
