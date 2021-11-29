@@ -1,6 +1,6 @@
 {
   "name": "crc32-base64",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "email": "pprisn@yandex.ru",
   "description": "расчет CRC-32(IEEE) для данных в base64",
   "main": "index.js",
