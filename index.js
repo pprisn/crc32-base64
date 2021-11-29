@@ -1,0 +1,1 @@
+module.exports = require('./build/Release/crc32_base64.node');
