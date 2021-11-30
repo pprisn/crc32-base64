@@ -35,7 +35,6 @@ int32 crc32(char* msg, int len) {
 */
 std::string crc32IEEE( std::string encodedData ) {
     int32 crc;
-    const unsigned long polynom = 0x04C11DB7; //0x0;//0xEDB88320;//
     std::string decoded = base64_decode(encodedData);
     const char *msg = decoded.c_str();
     int32 l = decoded.size();

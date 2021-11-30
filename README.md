@@ -1,6 +1,9 @@
 # Модуль вычисления crc32IEEE из строки, закодированной в base64.
 ## install
-npm install node-addon-api crc32-base64
+
+npm install node-addon-api --save-prod
+
+npm install crc32-base64
 
 ## Example
 const crc32 = require('crc32-base64')
