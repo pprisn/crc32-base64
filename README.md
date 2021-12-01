@@ -7,6 +7,8 @@ npm install crc32-base64
 
 ## Example
 const crc32 = require('crc32-base64')
+OR 
+import crc32 from 'crc32-base64'
 
 const buff64 = Buffer.from("Привет МИР!!!").toString('base64')
 
